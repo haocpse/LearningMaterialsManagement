@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Phu Hao\\source\\repos\\LearningMaterialsManagementSystem\\Presentation\\Presentation.csproj": {}
+    "D:\\_My_Project\\LearningMaterialsManagement\\LearningMaterialsManagementSystem\\Presentation\\Presentation.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Phu Hao\\source\\repos\\LearningMaterialsManagementSystem\\BLL\\BLL.csproj": {
+    "D:\\_My_Project\\LearningMaterialsManagement\\LearningMaterialsManagementSystem\\BLL\\BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Phu Hao\\source\\repos\\LearningMaterialsManagementSystem\\BLL\\BLL.csproj",
+        "projectUniqueName": "D:\\_My_Project\\LearningMaterialsManagement\\LearningMaterialsManagementSystem\\BLL\\BLL.csproj",
         "projectName": "BLL",
-        "projectPath": "C:\\Users\\Phu Hao\\source\\repos\\LearningMaterialsManagementSystem\\BLL\\BLL.csproj",
+        "projectPath": "D:\\_My_Project\\LearningMaterialsManagement\\LearningMaterialsManagementSystem\\BLL\\BLL.csproj",
         "packagesPath": "C:\\Users\\Phu Hao\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Phu Hao\\source\\repos\\LearningMaterialsManagementSystem\\BLL\\obj\\",
+        "outputPath": "D:\\_My_Project\\LearningMaterialsManagement\\LearningMaterialsManagementSystem\\BLL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Phu Hao\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,8 +29,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Phu Hao\\source\\repos\\LearningMaterialsManagementSystem\\DAL\\DAL.csproj": {
-                "projectPath": "C:\\Users\\Phu Hao\\source\\repos\\LearningMaterialsManagementSystem\\DAL\\DAL.csproj"
+              "D:\\_My_Project\\LearningMaterialsManagement\\LearningMaterialsManagementSystem\\DAL\\DAL.csproj": {
+                "projectPath": "D:\\_My_Project\\LearningMaterialsManagement\\LearningMaterialsManagementSystem\\DAL\\DAL.csproj"
               }
             }
           }
@@ -49,6 +49,20 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Hosting": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Microsoft.AspNetCore.SignalR.Core": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -69,14 +83,14 @@
         }
       }
     },
-    "C:\\Users\\Phu Hao\\source\\repos\\LearningMaterialsManagementSystem\\DAL\\DAL.csproj": {
+    "D:\\_My_Project\\LearningMaterialsManagement\\LearningMaterialsManagementSystem\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Phu Hao\\source\\repos\\LearningMaterialsManagementSystem\\DAL\\DAL.csproj",
+        "projectUniqueName": "D:\\_My_Project\\LearningMaterialsManagement\\LearningMaterialsManagementSystem\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "C:\\Users\\Phu Hao\\source\\repos\\LearningMaterialsManagementSystem\\DAL\\DAL.csproj",
+        "projectPath": "D:\\_My_Project\\LearningMaterialsManagement\\LearningMaterialsManagementSystem\\DAL\\DAL.csproj",
         "packagesPath": "C:\\Users\\Phu Hao\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Phu Hao\\source\\repos\\LearningMaterialsManagementSystem\\DAL\\obj\\",
+        "outputPath": "D:\\_My_Project\\LearningMaterialsManagement\\LearningMaterialsManagementSystem\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Phu Hao\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -94,8 +108,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Phu Hao\\source\\repos\\LearningMaterialsManagementSystem\\Model\\Model.csproj": {
-                "projectPath": "C:\\Users\\Phu Hao\\source\\repos\\LearningMaterialsManagementSystem\\Model\\Model.csproj"
+              "D:\\_My_Project\\LearningMaterialsManagement\\LearningMaterialsManagementSystem\\Model\\Model.csproj": {
+                "projectPath": "D:\\_My_Project\\LearningMaterialsManagement\\LearningMaterialsManagementSystem\\Model\\Model.csproj"
               }
             }
           }
@@ -114,6 +128,34 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -134,14 +176,14 @@
         }
       }
     },
-    "C:\\Users\\Phu Hao\\source\\repos\\LearningMaterialsManagementSystem\\Model\\Model.csproj": {
+    "D:\\_My_Project\\LearningMaterialsManagement\\LearningMaterialsManagementSystem\\Model\\Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Phu Hao\\source\\repos\\LearningMaterialsManagementSystem\\Model\\Model.csproj",
+        "projectUniqueName": "D:\\_My_Project\\LearningMaterialsManagement\\LearningMaterialsManagementSystem\\Model\\Model.csproj",
         "projectName": "Model",
-        "projectPath": "C:\\Users\\Phu Hao\\source\\repos\\LearningMaterialsManagementSystem\\Model\\Model.csproj",
+        "projectPath": "D:\\_My_Project\\LearningMaterialsManagement\\LearningMaterialsManagementSystem\\Model\\Model.csproj",
         "packagesPath": "C:\\Users\\Phu Hao\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Phu Hao\\source\\repos\\LearningMaterialsManagementSystem\\Model\\obj\\",
+        "outputPath": "D:\\_My_Project\\LearningMaterialsManagement\\LearningMaterialsManagementSystem\\Model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Phu Hao\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -175,6 +217,20 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Microsoft.jQuery.Unobtrusive.Ajax": {
+              "target": "Package",
+              "version": "[3.2.6, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -195,14 +251,14 @@
         }
       }
     },
-    "C:\\Users\\Phu Hao\\source\\repos\\LearningMaterialsManagementSystem\\Presentation\\Presentation.csproj": {
+    "D:\\_My_Project\\LearningMaterialsManagement\\LearningMaterialsManagementSystem\\Presentation\\Presentation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Phu Hao\\source\\repos\\LearningMaterialsManagementSystem\\Presentation\\Presentation.csproj",
+        "projectUniqueName": "D:\\_My_Project\\LearningMaterialsManagement\\LearningMaterialsManagementSystem\\Presentation\\Presentation.csproj",
         "projectName": "Presentation",
-        "projectPath": "C:\\Users\\Phu Hao\\source\\repos\\LearningMaterialsManagementSystem\\Presentation\\Presentation.csproj",
+        "projectPath": "D:\\_My_Project\\LearningMaterialsManagement\\LearningMaterialsManagementSystem\\Presentation\\Presentation.csproj",
         "packagesPath": "C:\\Users\\Phu Hao\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Phu Hao\\source\\repos\\LearningMaterialsManagementSystem\\Presentation\\obj\\",
+        "outputPath": "D:\\_My_Project\\LearningMaterialsManagement\\LearningMaterialsManagementSystem\\Presentation\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Phu Hao\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -220,8 +276,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Phu Hao\\source\\repos\\LearningMaterialsManagementSystem\\BLL\\BLL.csproj": {
-                "projectPath": "C:\\Users\\Phu Hao\\source\\repos\\LearningMaterialsManagementSystem\\BLL\\BLL.csproj"
+              "D:\\_My_Project\\LearningMaterialsManagement\\LearningMaterialsManagementSystem\\BLL\\BLL.csproj": {
+                "projectPath": "D:\\_My_Project\\LearningMaterialsManagement\\LearningMaterialsManagementSystem\\BLL\\BLL.csproj"
               }
             }
           }
@@ -240,6 +296,28 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.17, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[8.0.17, )"
+            },
+            "Microsoft.AspNetCore.SignalR": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "Microsoft.AspNetCore.SignalR.Client": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

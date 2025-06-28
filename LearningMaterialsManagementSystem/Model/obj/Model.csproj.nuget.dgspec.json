@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Phu Hao\\source\\repos\\LearningMaterialsManagementSystem\\Model\\Model.csproj": {}
+    "D:\\_My_Project\\LearningMaterialsManagement\\LearningMaterialsManagementSystem\\Model\\Model.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Phu Hao\\source\\repos\\LearningMaterialsManagementSystem\\Model\\Model.csproj": {
+    "D:\\_My_Project\\LearningMaterialsManagement\\LearningMaterialsManagementSystem\\Model\\Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Phu Hao\\source\\repos\\LearningMaterialsManagementSystem\\Model\\Model.csproj",
+        "projectUniqueName": "D:\\_My_Project\\LearningMaterialsManagement\\LearningMaterialsManagementSystem\\Model\\Model.csproj",
         "projectName": "Model",
-        "projectPath": "C:\\Users\\Phu Hao\\source\\repos\\LearningMaterialsManagementSystem\\Model\\Model.csproj",
+        "projectPath": "D:\\_My_Project\\LearningMaterialsManagement\\LearningMaterialsManagementSystem\\Model\\Model.csproj",
         "packagesPath": "C:\\Users\\Phu Hao\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Phu Hao\\source\\repos\\LearningMaterialsManagementSystem\\Model\\obj\\",
+        "outputPath": "D:\\_My_Project\\LearningMaterialsManagement\\LearningMaterialsManagementSystem\\Model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Phu Hao\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,6 +45,20 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Microsoft.jQuery.Unobtrusive.Ajax": {
+              "target": "Package",
+              "version": "[3.2.6, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
