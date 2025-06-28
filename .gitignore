@@ -114,3 +114,5 @@ coverage/
 *.DS_Store
 Thumbs.db
 LearningMaterialsManagementSystem/Presentation/obj/project.nuget.cache
+*.cache
+LearningMaterialsManagementSystem/Model/obj/Debug/net8.0/Model.AssemblyInfo.cs

@@ -1,3 +1,6 @@
+using DAL;
+using Microsoft.EntityFrameworkCore;
+
 namespace Presentation
 {
     public class Program
@@ -5,6 +8,11 @@ namespace Presentation
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+
+            builder.Services.AddDbContext<LMMSDbContext>(options =>
+             options.UseSqlServer(
+                 builder.Configuration.GetConnectionString("DefaultConnection")
+             ));
 
             // Add services to the container.
             builder.Services.AddRazorPages();
